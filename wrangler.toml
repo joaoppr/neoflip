@@ -1,0 +1,8 @@
+name = "neoflip-simpar-path"
+main = "workers/simpar-path.js"
+compatibility_date = "2026-11-25"
+
+routes = [
+  { pattern = "neoflip.com.br/cases/simpar*", zone_name = "neoflip.com.br" },
+  { pattern = "www.neoflip.com.br/cases/simpar*", zone_name = "neoflip.com.br" }
+]
